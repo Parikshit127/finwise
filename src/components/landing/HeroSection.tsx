@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-
 const HeroSection = () => {
   return (
     <header className="relative overflow-hidden py-24 md:py-32">
@@ -35,10 +34,10 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="flex justify-center"
           >
-            <img 
-              src="https://cdn.prod.website-files.com/6478759a86a93c4e09a15d31/6478759a86a93c4e09a15d86_Group%201000002821.webp" 
-              alt="FinWise App on a smartphone" 
-              className="max-w-sm md:max-w-md w-full"
+            <img
+              src="/images/stock-market-chart.png"
+              alt="Stock Market Chart - Financial Analytics Dashboard"
+              className="max-w-sm md:max-w-md w-full rounded-lg shadow-2xl"
             />
           </motion.div>
         </div>
